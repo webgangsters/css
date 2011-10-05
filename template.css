@@ -1,0 +1,591 @@
+@charset "UTF-8";
+
+/************************************
+			Body
+************************************/
+div#container {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	width:950px;
+	margin:auto;
+}
+
+/************************************
+			Header
+************************************/
+#header {
+	height:150px;
+	width:950px;
+}
+
+#logo a img {
+	position:absolute;
+	top:35px;
+	border:0;
+}
+
+/************************************
+			Navigation
+************************************/
+div#navigation ul {
+	list-style-type:none;
+	background-color:#F5F5F5;
+	position:absolute;
+	top:158px;
+	width:180px;
+	padding:5px;
+}
+
+div#navigation ul li a {
+	display:block;
+	padding:3px;
+	margin:2px;
+	height:20px;
+}
+
+li.navigation {
+	background-image:url('./img/navigation.gif');
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:13px;
+	font-weight:bold;
+}
+
+div#navigation ul li a:link {
+	color:white;
+	text-decoration:none;
+}
+
+div#navigation ul li a:hover {
+	color:#32CD32;
+	text-decoration:underline;
+}
+
+/************************************
+			Mobile Search
+************************************/
+div#tripsearch {
+	background-color:#F5F5F5;
+	position:absolute;
+	top:505px;
+	width:190px;	
+}
+
+div#tripsearch table {
+	
+	padding:5px;
+}
+
+div#tripsearch tr td input {
+	width:102px;
+}
+
+.tripsearch {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	width:110px;
+}
+
+/************************************
+			User Login
+************************************/
+div#userlogin {
+	background-color:#F5F5F5;
+	position:absolute;
+	top:300px;
+	width:190px;	
+}
+
+div#userlogin table {
+	padding:5px;
+}
+
+div#userlogin tr td input {
+	width:150px;
+}
+
+td.userlogin {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+}
+
+span.userloginError {
+	color:red;	
+}
+
+td.userloginTable {
+	colspan:2;
+	align:center;
+}
+
+table.userLogin {
+	width:190px;	
+}
+
+/************************************
+			Content Start
+************************************/
+
+/*****Home - Special*****/
+#special table {
+	background-color:#F5F5F5;
+	position:absolute;
+	top:170px;
+	margin-left:195px;
+	width:445px;
+	height:270px;
+	padding:5px;
+}
+
+td.special {
+	text-align:center;
+}
+
+/*****Home - News*****/
+#news table {
+	background-color:#F5F5F5;
+	position:absolute;
+	top:455px;
+	margin-left:195px;
+	width:445px;
+	height:270px;
+	padding:5px;
+}
+
+td.special {
+	text-align:center;
+}
+
+/*****Home - Popular*****/
+#popular table {
+	background-color:#F5F5F5;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	position:absolute;
+	top:170px;
+	margin-left:652px;
+	width:290px;
+	padding:5px;
+}
+
+#toppopular {
+	height:20px;
+	text-align:center;
+}
+
+tr.popular {
+	background-color:#FFFFF0;
+	height:20px;
+}
+
+/*****Registration Page*****/
+div#register {
+	background-color:#F5F5F5;
+	position:absolute;
+	top:170px;
+	margin-left:195px;
+	width:745px;
+	height:620px;
+	padding:5px;	
+}
+
+div#register form table {
+	width:745px;
+	padding:5px;
+	border-spacing:10px;
+	background-color:white;	
+	height:620px;
+}
+
+div#registerConfirm {
+	position:absolute;
+	top:0px;
+	margin-left:0px;
+	width:745px;
+	height:620px;
+	padding:5px;	
+}
+
+div#registerConfirm table {
+	width:740px;
+	padding:5px;
+	border-spacing:10px;
+	background-color:white;	
+	height:620px;
+}
+
+div#register table tr td h3 {
+	color:#32CD32;
+	height:30px;	
+}
+
+td.pageHeading {
+	height:100px;	
+}
+
+td.regi1 {
+	width:200px;	
+}
+
+td.regiButton {
+	text-align:center;	
+}
+
+input.regiButtonBlue {
+	background-color:#1E90FF;
+	color:white;
+}
+
+td.regi_Error {
+	color:red;	
+}
+
+/*****Browse Trips Page*****/
+div#tripPage {
+	background-color:#F5F5F5;
+	position:absolute;
+	top:170px;
+	margin-left:195px;
+	width:745px;
+	height:620px;
+	padding:5px;	
+}
+
+td.tripImage {
+	width:120px;
+	height:100px;	
+}
+
+td.tripDescription {
+	width:420px;
+	background-color:white;	
+}
+
+td.tripDetail {
+	width:180px;
+	text-align:center;
+	background-color:white;	
+	color:#4169E1;
+}
+
+div#browseTrips table {
+	position:absolute;
+	top:150px;
+	height:100px;
+	width:745px;
+	padding:0px;
+	border-spacing:0px;	
+	background-color:white;
+}
+
+div#browseTrips table tr th {
+	height:35px;	
+}
+
+div#browseTrips table tr td {
+	height:60px;	
+}
+
+th.browseTripsName {
+	width:80px;	
+}
+
+th.browseTripsPrice {
+	width:40px;	
+}
+
+th.browseTripsOperation {
+	width:85px;	
+}
+
+/*****Trip Pages*****/
+div#trip_Pages {
+	background-color:#F5F5F5;
+	position:absolute;
+	top:170px;
+	margin-left:195px;
+	width:745px;
+	height:620px;
+	padding:5px;	
+}
+
+div#trip_Pages table {
+	padding:5px;
+	border-spacing:5px;
+	background-color:white;	
+}
+
+td.tripTitle {
+	color:#32CD32;
+}
+
+td.tripImgLarge {
+	width:330px;
+	height:230px;
+}
+
+td.tripDate {
+	height:100px;
+	color:#4169E1;	
+}
+
+td.tripTime {
+	height:100px;	
+}
+
+td.tripButton {
+	height:25px;
+	text-align:left;
+}
+
+/*****Payment Page*****/
+div#payment {
+	background-color:#F5F5F5;
+	position:absolute;
+	top:170px;
+	margin-left:195px;
+	width:745px;
+	height:620px;
+	padding:5px;	
+}
+
+div#payment form table {
+	background-color:white;
+	height:620px;
+}
+
+td.pay1 {
+	width:300px;	
+}
+
+input.payButtonBlue {
+	background-color:#1E90FF;
+	color:white;
+}
+
+/************************************
+			Footer
+************************************/
+div#footer table {
+	background-image:url('./img/footer.jpg');
+	margin-top:650px;
+	width:950px;
+	height:120px;
+	text-align:right;
+	font-size:10px;
+}
+
+td#datetime p {
+	text-align:left;
+}
+
+td#validation a img {
+	border:0;
+}
+
+/*****Privacy Policy Page*****/
+div#policy {
+	background-color:#F5F5F5;
+	position:absolute;
+	top:170px;
+	margin-left:195px;
+	width:745px;
+	height:620px;
+	padding:5px;	
+}
+
+div#policy table tr td h3 {
+	color:#32CD32;	
+}
+
+div#policy table tr th {
+	color:#4169E1;	
+}
+
+div#policy table {
+	padding:5px;
+	border-spacing:20px;
+	background-color:white;	
+	height:620px;
+}
+
+/*****Site Map Page*****/
+div#siteMap {
+	background-color:#F5F5F5;
+	position:absolute;
+	top:170px;
+	margin-left:195px;
+	width:745px;
+	height:620px;
+	padding:5px;	
+}
+
+div#siteMap table {
+	border-spacing:5px;
+	
+}
+
+td.siteMapTitle {
+	height:25px;
+	background-color:white;	
+}
+
+td.siteMapMain {
+	width:155px;
+	height:60px;
+	background-color:#FFFACD;	
+	text-align:center;
+}
+
+td.siteMapSub {
+	width:155px;
+	height:60px;
+	background-color:white;	
+	text-align:center;
+}
+
+td.siteMapInvi {
+	width:155px;
+	height:60px;
+}
+
+/************************************
+			PHP
+************************************/
+/*****Administration Page*****/
+div#adminPanel {
+	background-color:#F5F5F5;
+	position:absolute;
+	top:170px;
+	margin-left:195px;
+	width:745px;
+	height:620px;
+	padding:5px;
+}
+
+div#adminPanel table {
+	width:745px;
+	padding:5px;
+	border-spacing:10px;
+	background-color:white;	
+	height:620px;
+}
+
+div#adminPanel table tr td h3 {
+	color:#32CD32;
+}
+
+/*****Modify Users Page*****/
+div#modifyUsers table {
+	position:absolute;
+	top:100px;
+	height:500px;
+	width:700px;
+	padding:0px;
+	border-spacing:0px;	
+}	
+
+td.modifyUser {
+	height:35px;	
+}
+
+input.modifyUsers {
+	width:70px;
+}
+
+input.modifyUsersEmail {
+	width:100px;	
+}
+
+input.modifyUsersAdd {
+	width:90px;	
+}
+
+/*****Modify Tours Page*****/
+div#modifyTours table {
+	position:absolute;
+	top:100px;
+	height:500px;
+	width:700px;
+	padding:0px;
+	border-spacing:0px;	
+}	
+
+td.modifyTour {
+	height:35px;	
+}
+
+input.modifyTours {
+	width:70px;
+}
+
+input.modifyToursDescription {
+	width:300px;	
+}
+
+input.modifyToursPrice {
+	width:30px;	
+}
+
+input.modifyToursLink {
+	width:90px;	
+}
+
+/*****User Page*****/
+div#userPanel {
+	background-color:#F5F5F5;
+	position:absolute;
+	top:170px;
+	margin-left:195px;
+	width:745px;
+	height:620px;
+	padding:5px;
+}
+
+div#userPanel table tr td h3 {
+	color:#32CD32;	
+}
+
+/*****Shopping Cart Page*****/
+th.cartName {
+	width:350px;
+}
+
+th.cartQty {
+	width:100px;
+}
+
+th.cartPrice {
+	width:100px;
+}
+
+th.cartOperation {
+	width:195px;	
+}
+
+div#shoppingCart {
+	background-color:#F5F5F5;
+	position:absolute;
+	top:170px;
+	margin-left:195px;
+	width:745px;
+	height:620px;
+	padding:5px;	
+}
+
+div#shoppingCart table {
+	width:745px;
+	padding:5px;
+	border-spacing:1px;
+	background-color:white;	
+	height:620px;
+}
+
+div#shoppingCart table tr th {
+	height:35px;	
+}
+
+td.shoppingCartTD {
+	height:25px;
+	text-align:right;	
+}
+
